@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: black;
+    transition: all 0.3s ease;
+}
+
+.site-header {
+    padding: 20px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.2), black);
+}
+
+.header-logo {
+    width: 180px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    filter: brightness(1.2);
+}
+
+.hero-section {
+    padding: 40px 20px;
+    background: rgba(255, 255, 0, 0.05);
+    border-bottom: 2px solid red;
+}
+
+.main-title {
+    letter-spacing: 8px;
+    color: red;
+    font-size: xx-large;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+.hero-text {
+    color: yellow;
+    font-size: larger;
+    line-height: 40px;
+    padding: 10px;
+}
+
+.nav-section {
+    padding: 20px;
+    background: rgba(255, 0, 0, 0.1);
+}
+
+.nav-title {
+    color: yellow;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.nav-link {
+    color: red;
+    text-decoration: none;
+    font-size: large;
+    padding: 0 10px;
+}
+
+.nav-link:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+.about-section {
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    margin: 20px;
+}
+
+.section-title {
+    letter-spacing: 6px;
+    color: red;
+    font-size: x-large;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+.section-text {
+    color: white;
+    font-size: large;
+    line-height: 32px;
+    max-width: 800px;
+    padding: 10px;
+}
+
+.video-section {
+    padding: 20px;
+    background: rgba(255, 0, 0, 0.1);
+}
+
+.intro-video {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border: 2px solid yellow;
+    border-radius: 8px;
+}
+
+.site-footer {
+    padding: 20px;
+    background: linear-gradient(0deg, rgba(255, 0, 0, 0.2), black);
+}
+
+.footer-text {
+    color: yellow;
+    font-size: medium;
+    line-height: 30px;
+}
+
+.footer-link {
+    color: red;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .main-title {
+        font-size: x-large;
+        letter-spacing: 4px;
+    }
+
+    .hero-text, .section-text {
+        font-size: medium;
+        line-height: 28px;
+    }
+
+    .about-section {
+        margin: 10px;
+        padding: 20px;
+    }
+}
